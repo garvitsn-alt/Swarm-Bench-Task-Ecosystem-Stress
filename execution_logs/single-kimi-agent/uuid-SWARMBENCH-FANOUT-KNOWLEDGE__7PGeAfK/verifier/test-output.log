@@ -1,0 +1,8 @@
+all_source_files_used: PASS (0.1)
+water_domain_score_correct: FAIL (0.16999999999999998)
+soil_domain_score_correct: FAIL (0.16999999999999998)
+forest_domain_score_correct: FAIL (0.16999999999999998)
+mixed_domain_score_correct: FAIL (0.16999999999999998)
+retrieval_score_correct: PASS (0.05)
+final_synthesis_value_correct: FAIL (0.16999999999999998)
+FINAL SCORE: 0.15

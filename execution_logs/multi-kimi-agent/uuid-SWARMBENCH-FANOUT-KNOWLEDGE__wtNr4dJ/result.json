@@ -1,0 +1,107 @@
+{
+    "id": "3082a897-3462-4bc3-bc4d-68eef0faf73f",
+    "task_name": "swarmbench/env-data-reconciliation",
+    "trial_name": "uuid-SWARMBENCH-FANOUT-KNOWLEDGE__wtNr4dJ",
+    "trial_uri": "file:///C:/Users/garvi/Documents/Turing/uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE/execution_logs/multi-kimi-agent-8/uuid-SWARMBENCH-FANOUT-KNOWLEDGE__wtNr4dJ",
+    "task_id": {
+        "path": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE"
+    },
+    "source": null,
+    "task_checksum": "97efaf82ff13c6f5791a8b346062949e3dba892d7d84c33cfba4d2c5e680237f",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "uuid-SWARMBENCH-FANOUT-KNOWLEDGE__wtNr4dJ",
+        "trials_dir": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE\\execution_logs\\multi-kimi-agent-8",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "swarm-kimi-multi",
+            "import_path": null,
+            "model_name": "fireworks_ai/accounts/fireworks/models/kimi-k2p5",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "FIREWORKS_API_KEY": "${FIREWORKS_API_KEY}"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {
+                "FIREWORKS_API_KEY": "${FIREWORKS_API_KEY}"
+            },
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "22cedc33-d0ed-4a45-ae56-40f557bdb290"
+    },
+    "agent_info": {
+        "name": "swarm-kimi-multi",
+        "version": "unknown",
+        "model_info": {
+            "name": "accounts/fireworks/models/kimi-k2p5",
+            "provider": "fireworks_ai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 139323,
+        "n_cache_tokens": 80135,
+        "n_output_tokens": 8204,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.66
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-05-10T19:36:03.211937Z",
+    "finished_at": "2026-05-10T20:00:16.782553Z",
+    "environment_setup": {
+        "started_at": "2026-05-10T19:36:05.590409Z",
+        "finished_at": "2026-05-10T19:36:21.946048Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-05-10T19:36:21.946097Z",
+        "finished_at": "2026-05-10T19:37:10.562239Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-05-10T19:37:10.562391Z",
+        "finished_at": "2026-05-10T20:00:08.714886Z"
+    },
+    "verifier": {
+        "started_at": "2026-05-10T20:00:08.870178Z",
+        "finished_at": "2026-05-10T20:00:10.849529Z"
+    },
+    "step_results": null
+}

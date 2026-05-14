@@ -1,0 +1,26 @@
+[task]
+name = "swarmbench/019e139b4f3d720e803bdfeeefa11e20-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE"
+description = "Reconcile messy environmental reports across air quality, water quality, emissions, deforestation, and biodiversity into one verified JSON report."
+
+[metadata]
+verifier_type = "executable"
+domain = "knowledge-research"
+coordination_pattern = "fan-out-synthesize"
+human_solving_hours_estimate = 12.0
+human_solving_hours_justification = "A human analyst would need approximately 20 minutes to inspect and classify each of the 24 environmental reports (~8 hours), plus ~2.5 hours for environmental evidence extraction and score calculations across all domains, plus ~1.5 hours for reconciliation, validation, and final JSON verification."
+estimated_sub_agents = 6
+input_token_estimate = 25000
+why_multi_agent = "The task requires reading many long environmental reports across multiple domains. A single agent can lose context consistency while tracking domain-specific extraction rules and calculations across all files. Multi-agent decomposition distributes reports across specialists so each agent handles a smaller focused context window before synthesis."
+reference_link = "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-1_2023.pdf"
+
+
+[agent]
+timeout_sec = 1380
+
+[verifier]
+timeout_sec = 600
+
+[environment]
+cpus = 2
+memory_mb = 4096
+build_timeout_sec = 1800

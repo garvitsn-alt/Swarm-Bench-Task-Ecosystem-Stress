@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p /logs/agent
+
+cat > /logs/agent/output.json <<'EOF'
+{
+  "source_files_used": [
+    "1746179179-causes-effects-and-solutions.pdf",
+    "(10)B-3643-Final.pdf",
+    "1851_9781351115629_previewpdf.pdf",
+    "646717.pdf",
+    "8398.pdf",
+    "ace3.pdf",
+    "Handbook.pdf",
+    "Management BFSc-608.pdf",
+    "attachment_69951686907167.pdf",
+    "AUJES_Volume 2_Issue 4_Pages 218-239.pdf",
+    "BALLAYAN 2000.pdf",
+    "book.pdf",
+    "Clean.pdf",
+    "egm-report.pdf",
+    "epdf.pub.pdf",
+    "Hassan2812024JGEESI111906.pdf",
+    "isfr_book_eng-vol-1_2023.pdf",
+    "L-0025804346-pdf.pdf",
+    "main work.pdf",
+    "Pollution.pdf",
+    "pollution__FAO.pdf",
+    "report-2001.pdf",
+    "sustainability-07-03528.pdf",
+    "te_1094_prn.pdf"
+  ],
+  "water_domain_score": 93,
+  "soil_domain_score": 78,
+  "forest_domain_score": 72,
+  "mixed_domain_score": 56,
+  "retrieval_score": 21,
+  "final_synthesis_value": 51
+}
+EOF

@@ -1,0 +1,100 @@
+{
+    "id": "4d2494ad-3ff3-45f1-b800-479ced0da5dd",
+    "task_name": "swarmbench/env-data-reconciliation",
+    "trial_name": "uuid-SWARMBENCH-FANOUT-KNOWLEDGE__AMEywHZ",
+    "trial_uri": "file:///C:/Users/garvi/Documents/Turing/uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE/execution_logs/oracle-8/uuid-SWARMBENCH-FANOUT-KNOWLEDGE__AMEywHZ",
+    "task_id": {
+        "path": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE"
+    },
+    "source": null,
+    "task_checksum": "73772a0c1c80f8cedaeb51d187e93eedb6264cd6f3d9c1ec8a46190c1c8bae0c",
+    "config": {
+        "task": {
+            "path": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "uuid-SWARMBENCH-FANOUT-KNOWLEDGE__AMEywHZ",
+        "trials_dir": "C:\\Users\\garvi\\Documents\\Turing\\uuid-SWARMBENCH-FANOUT-KNOWLEDGE-RESEARCH-ENVIRONMENT-STRESS-SCORE\\execution_logs\\oracle-8",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "46b9e2b2-9f6f-4972-89d8-c26787590341"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-05-10T20:01:35.659586Z",
+    "finished_at": "2026-05-10T20:02:24.995032Z",
+    "environment_setup": {
+        "started_at": "2026-05-10T20:01:39.688651Z",
+        "finished_at": "2026-05-10T20:02:14.879528Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-05-10T20:02:14.879616Z",
+        "finished_at": "2026-05-10T20:02:14.879826Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-05-10T20:02:14.879930Z",
+        "finished_at": "2026-05-10T20:02:17.779831Z"
+    },
+    "verifier": {
+        "started_at": "2026-05-10T20:02:17.780313Z",
+        "finished_at": "2026-05-10T20:02:22.160516Z"
+    },
+    "step_results": null
+}
